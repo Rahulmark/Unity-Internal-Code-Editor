@@ -5,16 +5,16 @@ using UnityEditor;
 using System.IO;
 using System;
 
-public class UnityInternalTextEditor : EditorWindow
+public class UnityInternalCodeEditor : EditorWindow
 {
     string text = "Nothing Opened...";
     TextAsset txtAsset;
     Vector2 scroll;
 
-    [MenuItem("Text Editor/Unity Internal Text Editor")]
+    [MenuItem("Code Editor/Unity Internal Code Editor")]
     static void Init()
     {
-        UnityInternalTextEditor window = (UnityInternalTextEditor)GetWindow(typeof(UnityInternalTextEditor), true, "EditorGUILayout.TextArea");
+        UnityInternalCodeEditor window = (UnityInternalCodeEditor)GetWindow(typeof(UnityInternalCodeEditor), true, "EditorGUILayout.TextArea");
         window.Show();
     }
 
