@@ -4,7 +4,7 @@ public class Demo : MonoBehaviour
 {
     void Start()
     {
-       Debug.Log("Yo");
+        Debug.Log("Yo mam");
     }
 }
 
